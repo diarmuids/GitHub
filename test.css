@@ -1,0 +1,18 @@
+
+body.wellcome-boy {
+  overflow: visible !important;
+}
+
+.overlay,
+body.wellcome-boy .wellcome-boy-message,
+iframe,
+.ht-footer,
+.home-page-ads-wrapper,
+.internal-page-ads-wrapper,
+.notifyjs-corner {
+  display: none !important;
+}
+
+body.wellcome-boy #app:before {
+  z-index: -1 !important;
+}
